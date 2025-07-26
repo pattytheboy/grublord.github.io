@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Grublord Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        h1 {
+            color: #5a2d82; /* A nice purple */
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #8e44ad; /* A slightly darker purple */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #6c3483; /* Even darker on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Grublord Games</h1>
+    <button id="visitButton">Visit Our Site</button>
+
+    <script>
+        document.getElementById('visitButton').addEventListener('click', function() {
+            // Replace 'https://www.example.com' with the actual URL you want to go to
+            window.location.href = 'https://www.example.com';
+        });
+    </script>
+</body>
+</html>
